@@ -1,4 +1,4 @@
-html, body
+html,body
 	{
 		height: 100%;
 		width: 100%;
@@ -14,81 +14,75 @@ table
 	{
 		text-align: center;
 	}
-.parrafo
+div
 	{
-		padding:;
-		margin: ;
-		color:;
-		box-shadow:;
-		text-shadow: ;
+		display: inline;
 	}
 #navegaid
 	{
 		vertical-align: center;
 		display: table-cell;
 		border-style: none;
+		text-align-last: center;
 		height: 100%;
 		width: 100%;
 	}
-.bodyindex
-{
-	background-color: #1b1e23;
-	height: 100%;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	display: table;
-
-}
 .diviframe
 {
+	background-color: white;
 	width: 100%;
 	height: 100%;
-	display: table-row;
+	display: block;
 	vertical-align: center;
 	align-content: center;
 	align-self: center;
 }
 .bodygeneral
 {
+	display: block;
+	width: 100%;
+	height: 100%
 	background-color: white;
 	text-align: center;
 }
 .footer
-{
-	display: inline;
+{	
+	background-color: #1b1e23;
 	color: white;
 	text-align: center;
 	margin: 0;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding: 20px 0 10px 0; 
 }
-.footerico
+#footerico
 {
-	text-align: center;
-	margin: 100px;
+	background-color: #1b1e23;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+.bodyindex
+{
+	background-color: #1b1e23;
+	padding: 0;
+	margin: 0;
+	display: inline;
 }
 .BarraNavegacion
 {
+	display: inline;
 	text-align: center;
-	text-decoration: none;
-	font-weight: 600;
+	text-decoration: inherit;
 	font-size: 20px;
 	color:white;
-	padding-top:15px;
-	padding-bottom:15px;
-	padding-left:40px;
-	padding-right:40px;
-	background-color:#FFD27D;
+	padding: 0;
+	margin: 0;
+	background-color: #FFD27D;
 	border-color: #d8d8d8;
 	border-width: 3px;
 	border-style: solid;
-	border-radius:30px;
+	border-radius:10px;
 }
-
-.logoindex
+.h3index
 {
-	display: inline;
-	padding-left: -90px;
-	padding-top: 20px;
+	padding: 10px 10px 10px 10px;
 }
