@@ -1,106 +1,108 @@
-html,body
-	{
-		height: 100%;
-		width: 100%;
-		padding: 0;
-		margin: 0;
-	}
-*
-	{
-		margin: 0;
-		padding: 0;
-		font-weight: cursive;
-		font-weight: 100px;
-	}
-table
-	{
-		text-align: center;
-	}
-#navegaid
-	{
-		vertical-align: center;
-		display: table-cell;
-		border-style: none;
-		text-align-last: center;
-		height: 100%;
-		width: 100%;
-	}
-.diviframe
-{
-	background-color: white;
-	width: 100%;
-	height: 100%;
-	display: block;
-	position: relative;
-}
-.bodygeneral
-{
-	text-align: center;
-}
-.parrafo
-{
- 	font-family: 'Roboto Slab', serif;
- 	font-size: 30px;
- 	text-align: center;
- 	color: black;
- 	width: 100%;
- 	height: 100%;
- 	margin-top: 30px;
-}
-.footer
-{	
-	background-color: #1b1e23;
-	color: white;
-	text-align: center;
-	margin: 0;
-	padding: 20px 0 10px 0; 
-}
-#footerico
-{
-	background-color: #1b1e23;
-	padding: 0;
-	margin: 0;
-	display: inline;
-}
-.bodyindex
-{
-	background-color: #1b1e23;
-	padding: 0;
-	margin: 0;
-	display: inline;
-}
-#Barraprincipal
-{
-	background-color: #1b1e23;
-	box-sizing: content-box;
-}
-.logobarra
-{
-	display: inline;
-}
-#divbarra
-{
-	display: inline;
-	margin: 20px;
-	position: relative;
-	left: 80px;
-	bottom: 40px;
-}
-.BarraNavegacion
-{
-	display: inline;
-	font-size: 30px;
-	color:white;
-	padding: 5px;
-	margin: 0;
-	background-color: #FFD27D;
-	border-color: #d8d8d8;
-	border-width: 3px;
-	border-style: solid;
-	border-radius:10px;
-}
-.h3index
-{
-	padding: 10px 10px 10px 10px;
-	font-size: 20px;
-}
+	html,body
+		{
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			background-color: #1b1e23;
+		}
+
+		#Barraprincipal
+			{
+				display: block;
+			}
+		.logobarra	
+			{
+				display: inline-block;
+				margin: center;
+			}
+
+		#divbarra
+			{
+				display: inline;
+				margin: 20px;	
+				position: relative;
+				
+			}
+
+		.horizontallist
+			{
+				list-style: none;
+			}
+		.divlink
+			{
+				display:table;
+				margin: 0 auto;
+			}
+		.BarraNavegacion
+			{
+				display: inline;
+				font-size:30px;
+				padding: 5px;/*
+				background-color: #fff;
+				border-color: red;
+				border-width: 3px;
+				border-style: solid;
+				border-radius:10px;-*/
+
+
+			}
+
+		.diviframe 
+			{
+				background-color: #fff;
+				width: 100%;
+				height: 50%;
+				display: block;
+			}
+
+		.bodygeneral
+			{
+				text-align: center;
+				background-color: #fff;
+			}
+
+		.parrafo
+			{
+			 	font-family: 'Roboto Slab', serif;
+			 	font-size: 26px;
+			 	text-align: center;
+			 	color: black;
+			 	width: 100%;
+			 	height: 70%;
+			 	margin-top: 30px;
+			 	background-color: #fff;
+			 }
+
+		.footer
+			{	
+				background-color: ;
+				color: #fff;
+				text-align: center;
+				margin: 0;
+				padding: 20px 0 10px 0;
+				bottom:0;
+			}
+
+		#footerico
+			{
+				background-color: #1b1e23;
+				padding: 0;
+				margin: 0;
+				display: inline;
+			}
+
+		#navegaid
+			{
+				display: inline;
+				text-align-last: center;
+				background-color: #fff;
+				height: 100%;
+				width: 100%;
+				padding-top: 30px;
+			}
+
+		.h3index
+			{
+				padding: 10px 10px 10px 10px;
+				font-size: 20px;
+			}
